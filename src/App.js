@@ -1,13 +1,14 @@
 // src/App.js
-import './App.css';
-import AboutUs from './components/AboutUs';
-import ContactUs from './components/ContactUs';
-import Download from './components/Download';
-import Faq from './components/Faq';
-import Feature from './components/Feature';
-import Home from './components/Home';
-import Header from './components/shared/Header';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import "./App.css";
+import AboutUs from "./components/AboutUs";
+import ContactUs from "./components/ContactUs";
+import Download from "./components/Download";
+import Faq from "./components/Faq";
+import Feature from "./components/Feature";
+import Home from "./components/Home";
+import Footer from "./components/shared/Footer";
+import Header from "./components/shared/Header";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/feature" element={<Feature />} />
         <Route path="/faq" element={<Faq />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

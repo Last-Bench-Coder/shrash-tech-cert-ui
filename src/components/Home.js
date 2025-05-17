@@ -4,7 +4,6 @@ import Category from './shared/Category'
 import WhyChooseUs from './shared/WhyChooseUs'
 import HomeContactSection from './shared/HomeContactSection'
 import UserReviews from './shared/UserReviews'
-import Footer from './shared/Footer'
 
 const Home = () => {
   return (
@@ -14,7 +13,6 @@ const Home = () => {
    <WhyChooseUs/>
    <HomeContactSection/>
    <UserReviews/>
-   <Footer/>
    </>
   )
 }
