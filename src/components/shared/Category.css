@@ -1,0 +1,55 @@
+/* src/components/Category.css */
+
+.category-section {
+  background: linear-gradient(120deg, #e0f7fa, #f1f8ff);
+  padding: 80px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.category-title {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #1a237e;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+.category-subtitle {
+  font-size: 1.1rem;
+  color: #333;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.category-card {
+  background: #fff;
+  border: none;
+  border-radius: 18px;
+  padding: 2rem 1.2rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.category-icon {
+  font-size: 3rem;
+  color: #00bcd4;
+  margin-bottom: 1rem;
+}
+
+.category-card .card-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #0d47a1;
+}
+
+.category-card .card-text {
+  font-size: 0.95rem;
+  color: #555;
+}

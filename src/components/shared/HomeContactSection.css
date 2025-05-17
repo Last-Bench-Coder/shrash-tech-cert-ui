@@ -1,0 +1,91 @@
+.home-contact-section {
+  background: linear-gradient(to right, #eef2f3, #dfe9f3);
+  padding: 80px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  letter-spacing: 1.1px;
+}
+
+.section-desc {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 12px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-contact-form {
+  background-color: #ffffff;
+  border: 1.8px solid #007cf0;
+  border-radius: 15px;
+  transition: box-shadow 0.3s ease;
+}
+
+.home-contact-form:hover,
+.home-contact-form:focus-within {
+  box-shadow: 0 12px 24px rgba(0, 124, 240, 0.3);
+  border-color: #00d4ff;
+}
+
+.form-input {
+  border: 1.5px solid #cbd5e1;
+  border-radius: 12px;
+  font-size: 1.05rem;
+  padding: 12px 15px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-input:focus {
+  border-color: #007cf0;
+  box-shadow: 0 0 6px #00d4ff;
+  outline: none;
+}
+
+.textarea-input {
+  resize: vertical;
+  min-height: 140px;
+}
+
+.contact-submit-btn {
+  background-color: #007cf0;
+  border: none;
+  padding: 12px 40px;
+  font-weight: 700;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 1.15rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 124, 240, 0.4);
+}
+
+.contact-submit-btn:hover {
+  background-color: #00d4ff;
+  color: #000;
+  transform: scale(1.05);
+}
+
+.submit-alert {
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(34, 139, 230, 0.3);
+}
+
+@media (max-width: 576px) {
+  .section-title {
+    font-size: 2rem;
+  }
+  .section-desc {
+    font-size: 1rem;
+  }
+  .contact-submit-btn {
+    width: 100%;
+  }
+}
